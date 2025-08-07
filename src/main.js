@@ -1,9 +1,15 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const app = createApp(App)
+const app = createApp(App);
 
-app.use(router)
+app.use(router);
 
-app.mount('#app')
+app.mount("#app");
+
+AOS.init({
+  duration: 1000
+});

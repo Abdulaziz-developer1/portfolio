@@ -1,12 +1,12 @@
 <template>
-    <main>
+    <main data-aos="fade-up">
         <h1>Hello, I am <span>Abdulaziz</span>, </h1>
         <img src="https://readme-typing-svg.demolab.com/?font=sans+serif&font-weight=800&size=50&duration=2500&pause=500&color=42b983&center=true&vCenter=true&width=700&lines=React+JS%20Developer+%7C;Vue%20JS%20Developer%7C;+Hireable;Always+Active+%7C;+Github+Contributer;Codewars+Active+User"
             alt="Typing SVG" />
         <p>Hello, I am Front-end developer learning Vue JS and looking for online work. I am able to create websites,
             telegram bots and web designs. I ... <router-link to="/about">read more</router-link></p>
     </main>
-    <section class="services">
+    <section data-aos="fade-up" class="services">
         <h2>Services</h2>
         <div class="cards">
             <div @click="redirect" class="card" v-for="(service, index) in services" :key="index">
@@ -16,7 +16,7 @@
         </div>
         <router-link to="/services">Read more</router-link>
     </section>
-    <section class="sociality">
+    <section data-aos="fade-up" class="sociality">
         <h2>Contact & blog</h2>
         <div style="display: flex; gap: 20px; align-items: center; justify-content: center;">
             <!-- Instagram (Square with Border) -->
