@@ -41,7 +41,6 @@ const router = createRouter({
       redirect: "/",
     },
   ],
-  // Optional: Customize scroll behavior
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition;
@@ -53,7 +52,7 @@ const router = createRouter({
 
 // Optional: Update document title when route changes
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title || "Your Website";
+  document.title = to.meta.title || "Portfolio";
   next();
 });
 
