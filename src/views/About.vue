@@ -81,6 +81,9 @@ p {
     align-items: center;
     gap: 25px;
 }
+a{
+  cursor: pointer;
+}
 
 @media (max-width:768px){
     .cards{

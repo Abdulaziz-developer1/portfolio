@@ -52,6 +52,9 @@ main {
     height: 90vh;
     gap: 30px;
 }
+a{
+  cursor: pointer;
+}
 
 h1 {
     font-weight: 400;

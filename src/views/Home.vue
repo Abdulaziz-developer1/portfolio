@@ -67,6 +67,10 @@ main {
     gap: 30px;
 }
 
+a {
+    cursor: pointer !important;
+}
+
 h1 {
     font-weight: 400;
     font-size: 50px;
@@ -85,12 +89,12 @@ p {
     gap: 25px;
 }
 
-@media (max-width:768px){
-    .cards{
+@media (max-width:768px) {
+    .cards {
         flex-wrap: wrap;
     }
 
-    .card{
+    .card {
         min-width: 90%;
     }
 }

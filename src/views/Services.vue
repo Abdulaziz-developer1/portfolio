@@ -65,6 +65,11 @@ h1 {
     font-size: 50px;
 }
 
+
+a{
+  cursor: pointer;
+}
+
 p {
     max-width: 450px;
     font-size: 20px;

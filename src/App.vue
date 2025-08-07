@@ -22,17 +22,17 @@
 </template>
 
 <script>
-export default{
-  data(){
+export default {
+  data() {
     return {
       visible: true
     }
   },
-  methods:{
+  methods: {
     setVisible() {
       this.visible = !this.visible;
       console.log('hello');
-      
+
     }
   }
 }
@@ -62,11 +62,18 @@ export default{
   overflow-x: hidden;
 }
 
-main, section, footer{
+a {
+  cursor: pointer;
+}
+
+main,
+section,
+footer {
   padding: 35px;
 }
 
-span,a{
+span,
+a {
   color: #42b983;
 }
 
@@ -95,18 +102,18 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 
-nav a{
+nav a {
   color: #fff;
 }
 
-.menuBtn{
+.menuBtn {
   background: transparent;
   font-size: 2em;
   border: none;
   display: none;
 }
 
-footer{
+footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,22 +121,22 @@ footer{
   background: #000;
 }
 
-@media (max-width:768px){
-  .menuBtn{
+@media (max-width:768px) {
+  .menuBtn {
     display: block;
   }
 
-  nav{
+  nav {
     flex-direction: column;
   }
 
-  header{
+  header {
     min-height: 10vh;
     height: auto;
     max-width: 80vh;
   }
 
-  header p{
+  header p {
     display: none;
   }
 }
